@@ -208,6 +208,7 @@ class Archive7z
     {
         $out = [];
         $out[] = '-y';
+        $out[] = '-mmt2';
 
         /*
   { "utf-8", CP_UTF8 },
