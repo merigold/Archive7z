@@ -223,9 +223,7 @@ class Archive7z
 
         if (null !== $this->password) {
             $out[] = '-p' . $this->password;
-        } else {
-            $out[] = '-p '; //todo
-        }
+        } 
 
         return $out;
     }
